@@ -1,0 +1,70 @@
+body {
+    margin: 3vh;
+    max-width: 679px;
+}
+
+h1 {
+    font-family: 'Inter Var';
+    font-size: 32px;
+    font-weight: bold;
+    color: #5B483E;
+}
+p {
+    font-family: 'Inter Var';
+    font-size: 14px;
+    color: #515155;
+}
+span {
+    font-family: 'Inter Var';
+    font-size: 14px;
+    color: #515155;
+
+}
+
+/************************
+
+        SideBar Styling
+
+*************************/
+
+.theHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialIcon {
+    text-decoration: none;
+}
+
+.casestudyContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.casestudyList{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.casestudyItem{
+    display: grid;
+    grid-template-columns: 1.3fr 2fr .7fr;
+    gap: 10px;
+    padding-block: 4px;
+}
+
+.deselected span{ /*use this for hover effect*/
+    color:#C0B5AF;
+}
+
+/**********************************
+
+            Media Queries
+
+**********************************/
+
